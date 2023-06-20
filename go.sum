@@ -1,7 +1,7 @@
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/hbstack/form v0.1.0 h1:pyt80S5m7deUQwlgUNU1Xcphaf+G21j/C4rNdoGeJAk=
-github.com/hbstack/form v0.1.0/go.mod h1:qIn/ivaNR+1CkbNK7+s9E9g5kbg04kka3C0Axaz9Rl4=
+github.com/hbstack/form v0.1.1 h1:AO9k/vp0qjs4BsN7zlafN7t0kn6VfvccITOl97vo6P8=
+github.com/hbstack/form v0.1.1/go.mod h1:gV+Ut13MRQ6lvLdsB3ZAxF6I4ALZDJhFu4pIxGKou/c=
 github.com/hbstack/hb v0.5.1 h1:8ikjjP7Rvnq1inaR53KezTX49es6+Ph053fHk+uY+to=
 github.com/hbstack/hb v0.5.1/go.mod h1:qlNnPNO1MRsrxxDvFMz98DMFafaBgvtAfBYiteR3i1A=
 github.com/hugomods/recaptcha-v2 v0.1.1 h1:+Sq2OlTygjZb5JOs5d+IoOz7SCX7hMU1WZFuqNy1yyY=
