@@ -1,15 +1,15 @@
 {
-  "name": "hb-mod-____",
+  "name": "hb-mod-contact",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hbstack/____.git"
+    "url": "git+https://github.com/hbstack/contact.git"
   },
   "author": "Razon Yang <razonyang@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hbstack/____/issues"
+    "url": "https://github.com/hbstack/contact/issues"
   },
-  "homepage": "https://github.com/hbstack/____",
+  "homepage": "https://github.com/hbstack/contact",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
     "prettier": "^2.7.1",
