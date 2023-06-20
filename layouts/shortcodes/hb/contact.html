@@ -1,0 +1,10 @@
+{{- $params := site.Params.hb.contact }}
+{{- if .IsNamedParams }}
+  {{- range slice "endpoint" "file" "recaptcha_sitekey" }}
+    {{- $name := . }}
+    {{- with $.Get $name }}
+      {{- $params = merge $params (dict $name .) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{ partial "hb/modules/contact/form" $params }}

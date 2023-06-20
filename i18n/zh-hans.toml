@@ -1,0 +1,23 @@
+[contact_email]
+other = "邮箱"
+
+[contact_email_help]
+other = "我们不会泄露你的邮箱地址。"
+
+[contact_file]
+other = "文件"
+
+[contact_name]
+other = "名称"
+
+[contact_message]
+other = "内容"
+
+[contact_recaptcha_help]
+other = "请确认你不是机器人。"
+
+[contact_subject]
+other = "主题"
+
+[contact_submit]
+other = "提交"

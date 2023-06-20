@@ -1,0 +1,71 @@
+{{- $file := default false .file }}
+<form
+  class="hb-contact-form needs-validation"
+  novalidate
+  action="{{ .endpoint }}"
+  method="post"
+  {{ if $file }}enctype="multipart/form-data"{{ end }}>
+  <input type="hidden" name="_gotcha" style="display:none !important" />
+  <div class="form-floating mb-3 required">
+    <input class="form-control" id="contact-name" name="name" required />
+    <label for="contact-name">{{ i18n "contact_name" }}</label>
+    <div class="invalid-feedback">
+      {{ i18n "contact_name" | lower | i18n "hb_form_field_invalid_feedback" }}
+    </div>
+  </div>
+  <div class="form-floating mb-3 required">
+    <input
+      type="email"
+      class="form-control"
+      id="contact-email"
+      name="email"
+      aria-describedby="contact-email-help"
+      required />
+    <label for="contact-email">{{ i18n "contact_email" }}</label>
+    <div id="contact-email-help" class="form-text">
+      We'll never share your email with anyone else.
+    </div>
+    <div class="invalid-feedback">
+      {{ i18n "contact_email" | lower | i18n "hb_form_field_invalid_feedback" }}
+    </div>
+  </div>
+  <div class="form-floating mb-3 required">
+    <input class="form-control" id="contact-subject" name="subject" required />
+    <label for="contact-subject">{{ i18n "contact_subject" }}</label>
+    <div class="invalid-feedback">
+      {{ i18n "contact_subject" | lower | i18n "hb_form_field_invalid_feedback" }}
+    </div>
+  </div>
+  <div class="form-floating mb-3 required">
+    <textarea
+      class="form-control"
+      id="contact-message"
+      name="message"
+      required></textarea>
+    <label for="contact-message">{{ i18n "contact_message" }}</label>
+    <div class="invalid-feedback">
+      {{ i18n "contact_message" | lower | i18n "hb_form_field_invalid_feedback" }}
+    </div>
+  </div>
+  {{- if $file }}
+    <div class="mb-3">
+      <label for="contact-file" class="form-label">
+        {{- i18n "contact_file" -}}
+      </label>
+      <input class="form-control" type="file" name="file" id="contact-file" />
+    </div>
+  {{- end }}
+  {{- with .recaptcha_sitekey }}
+    {{- page.Scratch.Set "reCaptcha-v2" true }}
+    <div class="mb-3">
+      <div class="g-recaptcha" data-sitekey="{{ . }}"></div>
+      <textarea name="g-recaptcha-v2-response" hidden required></textarea>
+      <div class="invalid-feedback">
+        {{- i18n "contact_recaptcha_help" -}}
+      </div>
+    </div>
+  {{- end }}
+  <button type="submit" class="btn btn-primary">
+    {{- i18n "contact_submit" -}}
+  </button>
+</form>
