@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/hbstack/contact/compare/v0.1.1...v0.2.0) (2023-06-25)
+
+
+### Features ✨
+
+* allow adding extra fields via the extra_fields parameter ([#7](https://github.com/hbstack/contact/issues/7)) ([3f86fe3](https://github.com/hbstack/contact/commit/3f86fe3368708012af0b471719be0c5ec7fe47c2))
+
 ## [0.1.1](https://github.com/hbstack/contact/compare/v0.1.0...v0.1.1) (2023-06-20)
 
 
