@@ -6,6 +6,14 @@
   method="post"
   {{ if $file }}enctype="multipart/form-data"{{ end }}>
   <input type="hidden" name="_gotcha" style="display:none !important" />
+  {{- with .extra_fields }}
+    {{- range . }}
+      <input
+        {{ with .type }}type="{{ . }}"{{ end }}
+        name="{{ .name }}"
+        value="{{ .value }}" />
+    {{- end }}
+  {{- end }}
   <div class="form-floating mb-3 required">
     <input class="form-control" id="contact-name" name="name" required />
     <label for="contact-name">{{ i18n "contact_name" }}</label>

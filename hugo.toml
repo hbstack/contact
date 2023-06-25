@@ -15,5 +15,10 @@ endpoint = ""
 file = false
 recaptcha_sitekey = ""
 
+# [[params.hb.contact.extra_fields]]
+# name = "_form_name"
+# type = "hidden"
+# value = "contact"
+
 # [params.hugopress.modules.hb-contact.hooks.body-end]
 # cacheable = true
