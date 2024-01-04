@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.1](https://github.com/hbstack/contact/compare/v0.2.0...v0.2.1) (2024-01-04)
+
+
+### Continuous Integration
+
+* **deps:** update module github.com/hbstack/hb to v0.5.2 ([0a20be4](https://github.com/hbstack/contact/commit/0a20be4fb9ec106de60e33cdd2466ce8a455d288))
+* **deps:** update module github.com/hbstack/hb to v0.6.0 ([28e47c5](https://github.com/hbstack/contact/commit/28e47c553dbf23bb03a2443344e9b29ef5614787))
+* **deps:** update module github.com/hbstack/hb to v0.7.0 ([bde273d](https://github.com/hbstack/contact/commit/bde273dd3143b941ab04d025baf9fe56d5a31b8e))
+* **deps:** update module github.com/hbstack/hb to v0.7.1 ([a227b72](https://github.com/hbstack/contact/commit/a227b729f9b3f93dcc4f5bddcc8a7f3d26019ba5))
+* **deps:** update module github.com/hbstack/hb to v0.7.2 ([0487d14](https://github.com/hbstack/contact/commit/0487d1461675042031683341500fde0d6fd918b5))
+* **deps:** update module github.com/hbstack/hb to v0.8.0 ([08d812d](https://github.com/hbstack/contact/commit/08d812d0a4d2dab3e6f7c93b28a6a108f8ba0ff9))
+* **deps:** update module github.com/hbstack/hb to v0.8.1 ([542b547](https://github.com/hbstack/contact/commit/542b547ed2667a40898f3e1d4f788b4766d4ad32))
+
 ## [0.2.0](https://github.com/hbstack/contact/compare/v0.1.1...v0.2.0) (2023-06-25)
 
 
